@@ -1,5 +1,5 @@
 {
-    "packageId": "19a4ad15f95ef1",
+    "packageId": "38cdfa3f1bfcf",
     "name": "",
     "description": "",
     "buttons": [
@@ -172,7 +172,7 @@
                     "number": 9
                 },
                 {
-                    "question": "which block",
+                    "question": "which block?",
                     "type": "options",
                     "values": {
                         "options": [
@@ -208,6 +208,91 @@
                     "compulsory": true,
                     "questionId": "241314717c7684",
                     "number": 11
+                },
+                {
+                    "question": "cleanliness inspection",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "failed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please check that walls, floors and stairs are clean"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "22e2cc0ee0a162",
+                    "number": 12
+                },
+                {
+                    "question": "hazards inspection",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "failed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please check for the following: i.  Electrical: exposed wires, ii. Floor: wet, uneven, trip hazards , iii. Stairs: free of obstacles, no trip hazards"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "6df3764f15f10c",
+                    "number": 13
+                },
+                {
+                    "question": "building access inspection",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "failed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please check that ramps to/from the building are clear, that all main doors open and that fobs work"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "2bcb7a8284c55c",
+                    "number": 14
+                },
+                {
+                    "question": "fire inspection: internal escape routes",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "failed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please ensure that all internal escape routes are clear and free of obstacles"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "23df623e531028",
+                    "number": 15
+                },
+                {
+                    "question": "fire inspection: fire extinguishers",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "failed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "Please ensure that there are fire extinguishers at each fire point and that they appear undamaged and that the last inspection date has not expired "
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "253d8ddd25410e",
+                    "number": 16
                 }
             ],
             "navigation": {
@@ -277,7 +362,39 @@
                                         "id": "241314717c7684",
                                         "type": "node",
                                         "parent": "21d818ea0ae014",
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "id": "22e2cc0ee0a162",
+                                                "type": "node",
+                                                "parent": "241314717c7684",
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "6df3764f15f10c",
+                                                "type": "node",
+                                                "parent": "241314717c7684",
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "2bcb7a8284c55c",
+                                                "type": "node",
+                                                "parent": "241314717c7684",
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "23df623e531028",
+                                                "type": "node",
+                                                "parent": "241314717c7684",
+                                                "children": [
+                                                    {
+                                                        "id": "253d8ddd25410e",
+                                                        "type": "node",
+                                                        "parent": "23df623e531028",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ]
                             }
