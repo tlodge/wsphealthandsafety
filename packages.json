@@ -1,5 +1,5 @@
 {
-    "packageId": "2192638e42eeba",
+    "packageId": "19a4ad15f95ef1",
     "name": "",
     "description": "",
     "buttons": [
@@ -15,8 +15,7 @@
                     "values": {
                         "options": [
                             "exterior",
-                            "South block (interior)",
-                            "North block (interior)"
+                            "interior"
                         ],
                         "multiple": "single",
                         "none": false,
@@ -64,40 +63,6 @@
                     "number": 3
                 },
                 {
-                    "question": "south block interior: doors",
-                    "type": "options",
-                    "values": {
-                        "options": [
-                            "yes",
-                            "no"
-                        ],
-                        "multiple": "single",
-                        "none": false,
-                        "description": ""
-                    },
-                    "validators": [],
-                    "compulsory": true,
-                    "questionId": "50cf811a8ff68c",
-                    "number": 4
-                },
-                {
-                    "question": "north block report: doors",
-                    "type": "options",
-                    "values": {
-                        "options": [
-                            "yes",
-                            "no"
-                        ],
-                        "multiple": "single",
-                        "none": false,
-                        "description": ""
-                    },
-                    "validators": [],
-                    "compulsory": true,
-                    "questionId": "137c09d9ab9d83",
-                    "number": 5
-                },
-                {
                     "question": "exterior report: lighting",
                     "type": "options",
                     "values": {
@@ -114,7 +79,7 @@
                     "validators": [],
                     "compulsory": true,
                     "questionId": "a1f0362d9ae7a",
-                    "number": 6
+                    "number": 4
                 },
                 {
                     "question": "exterior report: hazards",
@@ -133,7 +98,7 @@
                     "validators": [],
                     "compulsory": true,
                     "questionId": "268bc3a0c68fea",
-                    "number": 7
+                    "number": 5
                 },
                 {
                     "question": "exterior report: CCTV cameras",
@@ -150,7 +115,7 @@
                     "validators": [],
                     "compulsory": true,
                     "questionId": "1c59c72f0cd04e",
-                    "number": 8
+                    "number": 6
                 },
                 {
                     "question": "exterior report: damp/mould",
@@ -168,7 +133,7 @@
                     "validators": [],
                     "compulsory": true,
                     "questionId": "2685abbd5a525",
-                    "number": 9
+                    "number": 7
                 },
                 {
                     "question": "exterior report",
@@ -186,7 +151,7 @@
                     "validators": [],
                     "compulsory": true,
                     "questionId": "f854c5b5f0ca4",
-                    "number": 10
+                    "number": 8
                 },
                 {
                     "question": "exterior report: bins",
@@ -204,6 +169,44 @@
                     "validators": [],
                     "compulsory": true,
                     "questionId": "14363192a88451",
+                    "number": 9
+                },
+                {
+                    "question": "which block",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "south",
+                            "north"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please let us know which block you are inspecting"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "21d818ea0ae014",
+                    "number": 10
+                },
+                {
+                    "question": "block inspection",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "cleanliness/hygiene",
+                            "hazards",
+                            "access",
+                            "fire",
+                            "security",
+                            "inspection complete"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please select from each of the health and safety categories to inspect.  Please click on \"done\" when you have inspected each category"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "241314717c7684",
                     "number": 11
                 }
             ],
@@ -263,52 +266,18 @@
                                             }
                                         ]
                                     }
-                                ],
-                                "rules": [
-                                    {
-                                        "type": "question",
-                                        "id": "2e592edee1ce1e",
-                                        "value": {
-                                            "values": [
-                                                "exterior"
-                                            ]
-                                        }
-                                    }
                                 ]
                             },
                             {
-                                "id": "50cf811a8ff68c",
+                                "id": "21d818ea0ae014",
                                 "type": "node",
                                 "parent": "2e592edee1ce1e",
-                                "children": [],
-                                "rules": [
+                                "children": [
                                     {
-                                        "type": "question",
-                                        "id": "2e592edee1ce1e",
-                                        "value": {
-                                            "type": "options",
-                                            "values": [
-                                                "South block (interior)"
-                                            ]
-                                        }
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "137c09d9ab9d83",
-                                "type": "node",
-                                "parent": "2e592edee1ce1e",
-                                "children": [],
-                                "rules": [
-                                    {
-                                        "type": "question",
-                                        "id": "2e592edee1ce1e",
-                                        "value": {
-                                            "type": "options",
-                                            "values": [
-                                                "North block (interior)"
-                                            ]
-                                        }
+                                        "id": "241314717c7684",
+                                        "type": "node",
+                                        "parent": "21d818ea0ae014",
+                                        "children": []
                                     }
                                 ]
                             }
