@@ -1,5 +1,5 @@
 {
-    "packageId": "1212329ac5cc24",
+    "packageId": "354730defd879e",
     "name": "",
     "description": "",
     "buttons": [
@@ -200,7 +200,8 @@
                             "hazards",
                             "access",
                             "fire",
-                            "security"
+                            "security",
+                            "done"
                         ],
                         "multiple": "single",
                         "none": false,
@@ -807,6 +808,7 @@
                                                         "type": "question",
                                                         "id": "241314717c7684",
                                                         "value": {
+                                                            "type": "options",
                                                             "values": [
                                                                 "cleanliness/hygiene"
                                                             ]
@@ -921,7 +923,25 @@
                                                         "value": {
                                                             "type": "options",
                                                             "values": [
-                                                                "fire"
+                                                                "security"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "2a433d91fe8ba6",
+                                                "type": "node",
+                                                "parent": "241314717c7684",
+                                                "children": [],
+                                                "rules": [
+                                                    {
+                                                        "type": "question",
+                                                        "id": "241314717c7684",
+                                                        "value": {
+                                                            "type": "options",
+                                                            "values": [
+                                                                "done"
                                                             ]
                                                         }
                                                     }
@@ -976,6 +996,33 @@
                         }
                     },
                     "webhookId": "cab67afd3d3018"
+                },
+                {
+                    "name": "log endpoint",
+                    "type": "log",
+                    "url": "https://[buttonkit]/api/v1/datastore/log",
+                    "method": "POST",
+                    "contentType": "json",
+                    "parameters": {
+                        "dynamic": {
+                            "presser": [
+                                {
+                                    "id": "2a433d91fe8ba6_presser",
+                                    "type": "presser"
+                                }
+                            ],
+                            "pressed": [
+                                {
+                                    "id": "2a433d91fe8ba6_pressed",
+                                    "type": "pressed"
+                                }
+                            ]
+                        },
+                        "static": {
+                            "_datastorename": "handsinterior"
+                        }
+                    },
+                    "webhookId": "2a433d91fe8ba6"
                 }
             ]
         },
