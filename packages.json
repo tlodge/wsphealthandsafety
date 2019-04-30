@@ -1,5 +1,5 @@
 {
-    "packageId": "1562be50505cad",
+    "packageId": "27c1296dab24e",
     "name": "",
     "description": "",
     "buttons": [
@@ -51,7 +51,8 @@
                     "values": {
                         "options": [
                             "passed",
-                            "issue"
+                            "issue",
+                            "not checked"
                         ],
                         "multiple": "single",
                         "none": false,
@@ -361,6 +362,42 @@
                     "compulsory": true,
                     "questionId": "2555be12cf3aea",
                     "number": 20
+                },
+                {
+                    "question": "fire escape notes",
+                    "type": "freetext",
+                    "values": {
+                        "format": "large",
+                        "description": "please provide details on issues with the fire escape"
+                    },
+                    "validators": [],
+                    "compulsory": false,
+                    "questionId": "112b8ab88ab68b",
+                    "number": 21
+                },
+                {
+                    "question": "lighting issue notes",
+                    "type": "freetext",
+                    "values": {
+                        "format": "large",
+                        "description": "please provide details (e.g location) of the lighting issue"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "c507005d04f72",
+                    "number": 22
+                },
+                {
+                    "question": "hazard notes",
+                    "type": "freetext",
+                    "values": {
+                        "format": "large",
+                        "description": "please provide notes on hazards (or what you did to resolve hazards)"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "1e29e5b255fbb",
+                    "number": 23
                 }
             ],
             "navigation": {
@@ -413,9 +450,91 @@
                                                                     }
                                                                 ]
                                                             }
+                                                        ],
+                                                        "rules": [
+                                                            {
+                                                                "type": "question",
+                                                                "id": "268bc3a0c68fea",
+                                                                "value": {
+                                                                    "type": "options",
+                                                                    "values": [
+                                                                        "passed",
+                                                                        "not checked"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id": "1e29e5b255fbb",
+                                                        "type": "node",
+                                                        "parent": "268bc3a0c68fea",
+                                                        "children": [],
+                                                        "rules": [
+                                                            {
+                                                                "type": "question",
+                                                                "id": "268bc3a0c68fea",
+                                                                "value": {
+                                                                    "type": "options",
+                                                                    "values": [
+                                                                        "issue",
+                                                                        "fixed"
+                                                                    ]
+                                                                }
+                                                            }
                                                         ]
                                                     }
+                                                ],
+                                                "rules": [
+                                                    {
+                                                        "type": "question",
+                                                        "id": "a1f0362d9ae7a",
+                                                        "value": {
+                                                            "type": "options",
+                                                            "values": [
+                                                                "passed",
+                                                                "not checked"
+                                                            ]
+                                                        }
+                                                    }
                                                 ]
+                                            },
+                                            {
+                                                "id": "c507005d04f72",
+                                                "type": "node",
+                                                "parent": "a1f0362d9ae7a",
+                                                "children": []
+                                            }
+                                        ],
+                                        "rules": [
+                                            {
+                                                "type": "question",
+                                                "id": "25a6551972c8ac",
+                                                "value": {
+                                                    "type": "options",
+                                                    "values": [
+                                                        "passed",
+                                                        "not checked"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "112b8ab88ab68b",
+                                        "type": "node",
+                                        "parent": "25a6551972c8ac",
+                                        "children": [],
+                                        "rules": [
+                                            {
+                                                "type": "question",
+                                                "id": "25a6551972c8ac",
+                                                "value": {
+                                                    "type": "options",
+                                                    "values": [
+                                                        "issue"
+                                                    ]
+                                                }
                                             }
                                         ]
                                     }
