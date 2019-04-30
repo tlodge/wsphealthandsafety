@@ -1,0 +1,324 @@
+{
+    "packageId": "2192638e42eeba",
+    "name": "",
+    "description": "",
+    "buttons": [
+        {
+            "buttonId": "2d96ca8f6c11b8",
+            "name": "h&s inspection",
+            "description": "health and safety inspection",
+            "type": "action",
+            "questions": [
+                {
+                    "question": "what type of inspection are you doing?",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "exterior",
+                            "South block (interior)",
+                            "North block (interior)"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "Wharfside requires two types of health and safety inspections to be carried out each week: exterior (communal areas) and interior (for North and South blocks)"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "2e592edee1ce1e",
+                    "number": 1
+                },
+                {
+                    "question": "who is undertaking this report?",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "alfonso",
+                            "jim",
+                            "bob",
+                            "temporary staff"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "This button is for logging weekly health and safety reports.  Wharfside requires that visual inspections are performed on the communal areas and the interiors of each block"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "1695754d7b5d94",
+                    "number": 2
+                },
+                {
+                    "question": "exterior report: fire escapes",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "issue"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please check that each of the external fire escapes for each block are clear and appear structurally sound"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "25a6551972c8ac",
+                    "number": 3
+                },
+                {
+                    "question": "south block interior: doors",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "yes",
+                            "no"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": ""
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "50cf811a8ff68c",
+                    "number": 4
+                },
+                {
+                    "question": "north block report: doors",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "yes",
+                            "no"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": ""
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "137c09d9ab9d83",
+                    "number": 5
+                },
+                {
+                    "question": "exterior report: lighting",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "issue",
+                            "not checked",
+                            "fixed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please check the lighting of pedestrian areas/walkways.  If you are able to fix it, please note the fix by selecting \"fixed\"."
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "a1f0362d9ae7a",
+                    "number": 6
+                },
+                {
+                    "question": "exterior report: hazards",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "issue",
+                            "not checked",
+                            "fixed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "Please check for any hazards such as: trip hazards (uneven paving), broken glass, sharp objects.  If you are able to fix it, please note the fix by selecting \"fixed\"."
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "268bc3a0c68fea",
+                    "number": 7
+                },
+                {
+                    "question": "exterior report: CCTV cameras",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "issue"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please check if CCTV cameras appear undamaged and are pointed towards the correct area."
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "1c59c72f0cd04e",
+                    "number": 8
+                },
+                {
+                    "question": "exterior report: damp/mould",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "issue",
+                            "not checked"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please log any evidence of damp (such as mould, discolouration of walls, peeling paint)"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "2685abbd5a525",
+                    "number": 9
+                },
+                {
+                    "question": "exterior report",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "issue",
+                            "fixed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please log any structural issues, such as broken guttering, missing tiles, loose bricks.  If you are able to fix, please provide details of fix"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "f854c5b5f0ca4",
+                    "number": 10
+                },
+                {
+                    "question": "exterior report: bins",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "issue",
+                            "fixed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please record any issues relating to bins, please log any hygiene issues, litter surrounding bins.  If you are able to resolve the issue, please mark as fixed and provide details."
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "14363192a88451",
+                    "number": 11
+                }
+            ],
+            "navigation": {
+                "id": "1695754d7b5d94",
+                "type": "node",
+                "parent": "2e592edee1ce1e",
+                "children": [
+                    {
+                        "id": "2e592edee1ce1e",
+                        "type": "node",
+                        "parent": "1695754d7b5d94",
+                        "children": [
+                            {
+                                "id": "25a6551972c8ac",
+                                "type": "node",
+                                "parent": "2e592edee1ce1e",
+                                "children": [
+                                    {
+                                        "id": "a1f0362d9ae7a",
+                                        "type": "node",
+                                        "parent": "25a6551972c8ac",
+                                        "children": [
+                                            {
+                                                "id": "268bc3a0c68fea",
+                                                "type": "node",
+                                                "parent": "a1f0362d9ae7a",
+                                                "children": [
+                                                    {
+                                                        "id": "1c59c72f0cd04e",
+                                                        "type": "node",
+                                                        "parent": "268bc3a0c68fea",
+                                                        "children": [
+                                                            {
+                                                                "id": "2685abbd5a525",
+                                                                "type": "node",
+                                                                "parent": "1c59c72f0cd04e",
+                                                                "children": [
+                                                                    {
+                                                                        "id": "f854c5b5f0ca4",
+                                                                        "type": "node",
+                                                                        "parent": "2685abbd5a525",
+                                                                        "children": [
+                                                                            {
+                                                                                "id": "14363192a88451",
+                                                                                "type": "node",
+                                                                                "parent": "f854c5b5f0ca4",
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "rules": [
+                                    {
+                                        "type": "question",
+                                        "id": "2e592edee1ce1e",
+                                        "value": {
+                                            "values": [
+                                                "exterior"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "50cf811a8ff68c",
+                                "type": "node",
+                                "parent": "2e592edee1ce1e",
+                                "children": [],
+                                "rules": [
+                                    {
+                                        "type": "question",
+                                        "id": "2e592edee1ce1e",
+                                        "value": {
+                                            "type": "options",
+                                            "values": [
+                                                "South block (interior)"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "137c09d9ab9d83",
+                                "type": "node",
+                                "parent": "2e592edee1ce1e",
+                                "children": [],
+                                "rules": [
+                                    {
+                                        "type": "question",
+                                        "id": "2e592edee1ce1e",
+                                        "value": {
+                                            "type": "options",
+                                            "values": [
+                                                "North block (interior)"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "rules": []
+                    }
+                ],
+                "defaults": {}
+            },
+            "webhooks": []
+        }
+    ]
+}
