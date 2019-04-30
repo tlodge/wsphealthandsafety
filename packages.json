@@ -1,5 +1,5 @@
 {
-    "packageId": "1cab2d2e24e09f",
+    "packageId": "2512a1fabde9a",
     "name": "",
     "description": "",
     "buttons": [
@@ -535,7 +535,14 @@
                                                                                         "id": "f164ece7c8eb9",
                                                                                         "type": "node",
                                                                                         "parent": "14363192a88451",
-                                                                                        "children": [],
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "id": "cab67afd3d3018",
+                                                                                                "type": "node",
+                                                                                                "parent": "f164ece7c8eb9",
+                                                                                                "children": []
+                                                                                            }
+                                                                                        ],
                                                                                         "rules": [
                                                                                             {
                                                                                                 "type": "question",
@@ -841,7 +848,35 @@
                 ],
                 "defaults": {}
             },
-            "webhooks": []
+            "webhooks": [
+                {
+                    "name": "log endpoint",
+                    "type": "log",
+                    "url": "https://[buttonkit]/api/v1/datastore/log",
+                    "method": "POST",
+                    "contentType": "json",
+                    "parameters": {
+                        "dynamic": {
+                            "presser": [
+                                {
+                                    "id": "cab67afd3d3018_presser",
+                                    "type": "presser"
+                                }
+                            ],
+                            "pressed": [
+                                {
+                                    "id": "cab67afd3d3018_pressed",
+                                    "type": "pressed"
+                                }
+                            ]
+                        },
+                        "static": {
+                            "_datastorename": "handsexterior"
+                        }
+                    },
+                    "webhookId": "cab67afd3d3018"
+                }
+            ]
         }
     ]
 }
