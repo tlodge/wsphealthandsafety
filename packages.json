@@ -1,5 +1,5 @@
 {
-    "packageId": "25368c0a5e98e",
+    "packageId": "1cab2d2e24e09f",
     "name": "",
     "description": "",
     "buttons": [
@@ -138,7 +138,7 @@
                     "number": 7
                 },
                 {
-                    "question": "exterior report",
+                    "question": "exterior report: structural issues",
                     "type": "options",
                     "values": {
                         "options": [
@@ -508,7 +508,15 @@
                                                                                         "id": "bb856929fe665",
                                                                                         "type": "node",
                                                                                         "parent": "14363192a88451",
-                                                                                        "children": [],
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "id": "2d5963402f5154",
+                                                                                                "type": "subtree",
+                                                                                                "parent": null,
+                                                                                                "nodeid": "f164ece7c8eb9",
+                                                                                                "children": []
+                                                                                            }
+                                                                                        ],
                                                                                         "rules": [
                                                                                             {
                                                                                                 "type": "question",
@@ -548,7 +556,15 @@
                                                                                 "id": "9a0f8ef08a4428",
                                                                                 "type": "node",
                                                                                 "parent": "f854c5b5f0ca4",
-                                                                                "children": []
+                                                                                "children": [
+                                                                                    {
+                                                                                        "id": "25e36ce761bfb",
+                                                                                        "type": "subtree",
+                                                                                        "parent": null,
+                                                                                        "nodeid": "14363192a88451",
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
                                                                             }
                                                                         ],
                                                                         "rules": [
@@ -569,7 +585,15 @@
                                                                         "id": "e338ce7186dc28",
                                                                         "type": "node",
                                                                         "parent": "2685abbd5a525",
-                                                                        "children": [],
+                                                                        "children": [
+                                                                            {
+                                                                                "id": "772ab5395dcae4",
+                                                                                "type": "subtree",
+                                                                                "parent": null,
+                                                                                "nodeid": "f854c5b5f0ca4",
+                                                                                "children": []
+                                                                            }
+                                                                        ],
                                                                         "rules": [
                                                                             {
                                                                                 "type": "question",
@@ -602,7 +626,15 @@
                                                                 "id": "86cf94f55d6f58",
                                                                 "type": "node",
                                                                 "parent": "1c59c72f0cd04e",
-                                                                "children": [],
+                                                                "children": [
+                                                                    {
+                                                                        "id": "b2a720b718cf7",
+                                                                        "type": "subtree",
+                                                                        "parent": null,
+                                                                        "nodeid": "2685abbd5a525",
+                                                                        "children": []
+                                                                    }
+                                                                ],
                                                                 "rules": [
                                                                     {
                                                                         "type": "question",
@@ -635,7 +667,15 @@
                                                         "id": "1e29e5b255fbb",
                                                         "type": "node",
                                                         "parent": "268bc3a0c68fea",
-                                                        "children": [],
+                                                        "children": [
+                                                            {
+                                                                "id": "25839c8ec9f2aa",
+                                                                "type": "subtree",
+                                                                "parent": null,
+                                                                "nodeid": "1c59c72f0cd04e",
+                                                                "children": []
+                                                            }
+                                                        ],
                                                         "rules": [
                                                             {
                                                                 "type": "question",
@@ -669,7 +709,15 @@
                                                 "id": "c507005d04f72",
                                                 "type": "node",
                                                 "parent": "a1f0362d9ae7a",
-                                                "children": []
+                                                "children": [
+                                                    {
+                                                        "id": "217f537d1d2ae4",
+                                                        "type": "subtree",
+                                                        "parent": null,
+                                                        "nodeid": "268bc3a0c68fea",
+                                                        "children": []
+                                                    }
+                                                ]
                                             }
                                         ],
                                         "rules": [
@@ -690,7 +738,15 @@
                                         "id": "112b8ab88ab68b",
                                         "type": "node",
                                         "parent": "25a6551972c8ac",
-                                        "children": [],
+                                        "children": [
+                                            {
+                                                "id": "2ddd8796fe4232",
+                                                "type": "subtree",
+                                                "parent": null,
+                                                "nodeid": "a1f0362d9ae7a",
+                                                "children": []
+                                            }
+                                        ],
                                         "rules": [
                                             {
                                                 "type": "question",
