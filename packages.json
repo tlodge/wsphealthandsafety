@@ -1,5 +1,5 @@
 {
-    "packageId": "293e5738a0730e",
+    "packageId": "1e6e8a25350b36",
     "name": "",
     "description": "",
     "buttons": [
@@ -1253,12 +1253,6 @@
                                 "default": ""
                             },
                             {
-                                "id": "1695754d7b5d94",
-                                "path": "1695754d7b5d94",
-                                "alias": "reporter",
-                                "default": ""
-                            },
-                            {
                                 "id": "21d818ea0ae014",
                                 "path": "21d818ea0ae014",
                                 "alias": "block",
@@ -1267,43 +1261,37 @@
                             {
                                 "id": "23df623e531028",
                                 "path": "23df623e531028",
-                                "alias": "fire inspection: internal escape routes",
+                                "alias": "escape routes",
                                 "default": ""
                             },
                             {
                                 "id": "253d8ddd25410e",
                                 "path": "253d8ddd25410e",
-                                "alias": "fire inspection: fire extinguishers",
+                                "alias": "fire extinguishers",
                                 "default": ""
                             },
                             {
                                 "id": "1c28be406349bc",
                                 "path": "1c28be406349bc",
-                                "alias": "fire inspection: emergency lighting",
+                                "alias": "emergency lighting",
                                 "default": ""
                             },
                             {
                                 "id": "290387470bf6a4",
                                 "path": "290387470bf6a4",
-                                "alias": "fire inspection: fire doors",
+                                "alias": "fire doors",
                                 "default": ""
                             },
                             {
                                 "id": "3ede513e9b40d8",
                                 "path": "3ede513e9b40d8",
-                                "alias": "fire inspection: smoke alarms",
+                                "alias": "smoke alarms",
                                 "default": ""
                             },
                             {
                                 "id": "2555be12cf3aea",
                                 "path": "2555be12cf3aea",
-                                "alias": "fire inspection: signage",
-                                "default": ""
-                            },
-                            {
-                                "id": "112b8ab88ab68b",
-                                "path": "112b8ab88ab68b",
-                                "alias": "fire escape notes",
+                                "alias": "signage",
                                 "default": ""
                             }
                         ],
