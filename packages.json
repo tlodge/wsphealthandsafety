@@ -1,5 +1,5 @@
 {
-    "packageId": "38cdfa3f1bfcf",
+    "packageId": "1562be50505cad",
     "name": "",
     "description": "",
     "buttons": [
@@ -293,6 +293,74 @@
                     "compulsory": true,
                     "questionId": "253d8ddd25410e",
                     "number": 16
+                },
+                {
+                    "question": "fire inspection: emergency lighting",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "failed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "Please check that the emergency lighting is working"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "1c28be406349bc",
+                    "number": 17
+                },
+                {
+                    "question": "fire inspection: fire doors",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "failed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "Please check that all main fire doors are closed and undamaged "
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "290387470bf6a4",
+                    "number": 18
+                },
+                {
+                    "question": "fire inspection: smoke alarms",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "failed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "please check that the lights are blinking showing no fault on each of the block's smoke alarms"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "3ede513e9b40d8",
+                    "number": 19
+                },
+                {
+                    "question": "fire inspection: signage",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "passed",
+                            "failed"
+                        ],
+                        "multiple": "single",
+                        "none": false,
+                        "description": "Please ensure that signs to all emergency exits are present and clear"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "2555be12cf3aea",
+                    "number": 20
                 }
             ],
             "navigation": {
@@ -390,7 +458,35 @@
                                                         "id": "253d8ddd25410e",
                                                         "type": "node",
                                                         "parent": "23df623e531028",
-                                                        "children": []
+                                                        "children": [
+                                                            {
+                                                                "id": "1c28be406349bc",
+                                                                "type": "node",
+                                                                "parent": "253d8ddd25410e",
+                                                                "children": [
+                                                                    {
+                                                                        "id": "290387470bf6a4",
+                                                                        "type": "node",
+                                                                        "parent": "1c28be406349bc",
+                                                                        "children": [
+                                                                            {
+                                                                                "id": "3ede513e9b40d8",
+                                                                                "type": "node",
+                                                                                "parent": "290387470bf6a4",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "id": "2555be12cf3aea",
+                                                                                        "type": "node",
+                                                                                        "parent": "3ede513e9b40d8",
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
                                                     }
                                                 ]
                                             }
