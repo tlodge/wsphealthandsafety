@@ -1,5 +1,5 @@
 {
-    "packageId": "27c1296dab24e",
+    "packageId": "25368c0a5e98e",
     "name": "",
     "description": "",
     "buttons": [
@@ -107,7 +107,8 @@
                     "values": {
                         "options": [
                             "passed",
-                            "issue"
+                            "issue",
+                            "not checked"
                         ],
                         "multiple": "single",
                         "none": false,
@@ -161,7 +162,8 @@
                         "options": [
                             "passed",
                             "issue",
-                            "fixed"
+                            "fixed",
+                            "not checked"
                         ],
                         "multiple": "single",
                         "none": false,
@@ -398,6 +400,63 @@
                     "compulsory": true,
                     "questionId": "1e29e5b255fbb",
                     "number": 23
+                },
+                {
+                    "question": "cctv notes",
+                    "type": "freetext",
+                    "values": {
+                        "format": "large",
+                        "description": "please provide details on issues with cctv"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "86cf94f55d6f58",
+                    "number": 24
+                },
+                {
+                    "question": "damp notes",
+                    "type": "freetext",
+                    "values": {
+                        "format": "large",
+                        "description": "please provide details on damp"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "e338ce7186dc28",
+                    "number": 25
+                },
+                {
+                    "question": "exterior notes",
+                    "type": "freetext",
+                    "values": {
+                        "format": "large",
+                        "description": "please provide additional details on issues with the exterior (e.g: location)"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "9a0f8ef08a4428",
+                    "number": 26
+                },
+                {
+                    "question": "bin issue",
+                    "type": "freetext",
+                    "values": {
+                        "format": "large",
+                        "description": "please provide further details of issues with the bin (or what you did to resolve the issue)"
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "bb856929fe665",
+                    "number": 27
+                },
+                {
+                    "question": "please sign off this report",
+                    "type": "signature",
+                    "values": {},
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "f164ece7c8eb9",
+                    "number": 28
                 }
             ],
             "navigation": {
@@ -444,9 +503,116 @@
                                                                                 "id": "14363192a88451",
                                                                                 "type": "node",
                                                                                 "parent": "f854c5b5f0ca4",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "id": "bb856929fe665",
+                                                                                        "type": "node",
+                                                                                        "parent": "14363192a88451",
+                                                                                        "children": [],
+                                                                                        "rules": [
+                                                                                            {
+                                                                                                "type": "question",
+                                                                                                "id": "14363192a88451",
+                                                                                                "value": {
+                                                                                                    "type": "options",
+                                                                                                    "values": [
+                                                                                                        "issue",
+                                                                                                        "fixed"
+                                                                                                    ]
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "id": "f164ece7c8eb9",
+                                                                                        "type": "node",
+                                                                                        "parent": "14363192a88451",
+                                                                                        "children": [],
+                                                                                        "rules": [
+                                                                                            {
+                                                                                                "type": "question",
+                                                                                                "id": "14363192a88451",
+                                                                                                "value": {
+                                                                                                    "type": "options",
+                                                                                                    "values": [
+                                                                                                        "passed",
+                                                                                                        "not checked"
+                                                                                                    ]
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "id": "9a0f8ef08a4428",
+                                                                                "type": "node",
+                                                                                "parent": "f854c5b5f0ca4",
                                                                                 "children": []
                                                                             }
+                                                                        ],
+                                                                        "rules": [
+                                                                            {
+                                                                                "type": "question",
+                                                                                "id": "2685abbd5a525",
+                                                                                "value": {
+                                                                                    "type": "options",
+                                                                                    "values": [
+                                                                                        "passed",
+                                                                                        "not checked"
+                                                                                    ]
+                                                                                }
+                                                                            }
                                                                         ]
+                                                                    },
+                                                                    {
+                                                                        "id": "e338ce7186dc28",
+                                                                        "type": "node",
+                                                                        "parent": "2685abbd5a525",
+                                                                        "children": [],
+                                                                        "rules": [
+                                                                            {
+                                                                                "type": "question",
+                                                                                "id": "2685abbd5a525",
+                                                                                "value": {
+                                                                                    "type": "options",
+                                                                                    "values": [
+                                                                                        "issue"
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "rules": [
+                                                                    {
+                                                                        "type": "question",
+                                                                        "id": "1c59c72f0cd04e",
+                                                                        "value": {
+                                                                            "type": "options",
+                                                                            "values": [
+                                                                                "passed",
+                                                                                "not checked"
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id": "86cf94f55d6f58",
+                                                                "type": "node",
+                                                                "parent": "1c59c72f0cd04e",
+                                                                "children": [],
+                                                                "rules": [
+                                                                    {
+                                                                        "type": "question",
+                                                                        "id": "1c59c72f0cd04e",
+                                                                        "value": {
+                                                                            "type": "options",
+                                                                            "values": [
+                                                                                "issue"
+                                                                            ]
+                                                                        }
                                                                     }
                                                                 ]
                                                             }
