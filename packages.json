@@ -1,5 +1,5 @@
 {
-    "packageId": "e1b9798d0afff",
+    "packageId": "1212329ac5cc24",
     "name": "",
     "description": "",
     "buttons": [
@@ -766,6 +766,17 @@
                                             }
                                         ]
                                     }
+                                ],
+                                "rules": [
+                                    {
+                                        "type": "question",
+                                        "id": "2e592edee1ce1e",
+                                        "value": {
+                                            "values": [
+                                                "exterior"
+                                            ]
+                                        }
+                                    }
                                 ]
                             },
                             {
@@ -917,6 +928,18 @@
                                                 ]
                                             }
                                         ]
+                                    }
+                                ],
+                                "rules": [
+                                    {
+                                        "type": "question",
+                                        "id": "2e592edee1ce1e",
+                                        "value": {
+                                            "type": "options",
+                                            "values": [
+                                                "interior"
+                                            ]
+                                        }
                                     }
                                 ]
                             }
